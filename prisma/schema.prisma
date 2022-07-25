@@ -17,5 +17,11 @@ model User {
   username    String      @unique
   email       String      @unique
   createdAt   DateTime    @updatedAt @map("created_at")
-  
+
+}
+
+model Post {
+  id        String        @default(cuid())      @id
+  title     String        
+  body      String          
 }
