@@ -8,7 +8,7 @@ const Register = ( ) => {
                     <input type="text" className="p-4 m-2 rounded-md" placeholder="Enter Username" />
                     <input type="text" className="p-4 m-2 rounded-md" placeholder="Enter Email" />
                     <input type="text" className="p-4 m-2 rounded-md" placeholder="Enter Password"/>
-                    <button className="rounded-md p-4 m-2 bg-emerald-500">Register</button>
+                    <button className="rounded-md p-4 m-2 bg-emerald-500 hover:bg-emerald-600">Register</button>
                 </div>
             </div>
         </div>
